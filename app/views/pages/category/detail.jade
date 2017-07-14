@@ -1,0 +1,14 @@
+extends ../../layout
+
+block content
+  .container
+    .row
+      table.table.table-hover.table-bordered
+        thead
+          tr
+            th 名字
+            th 时间
+        tbody
+          //- tr(class="item-id-#{category._id}")
+          //-   td #{category.name}
+          //-   td #{moment(category.meta.updateAt).format('MM/DD/YYYY')}
